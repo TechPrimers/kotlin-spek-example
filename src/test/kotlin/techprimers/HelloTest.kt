@@ -9,8 +9,8 @@ import org.junit.runner.RunWith
 
 @RunWith(JUnitPlatform::class)
 class HelloTest: Spek({
-    describe("Print") {
-        it ("check primer") {
+    describe("Basic test to check framework") {
+        it ("check") {
             Assert.assertTrue(true)
         }
     }
